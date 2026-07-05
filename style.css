@@ -1,0 +1,117 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: #0a0f1a;
+color: #e6f1ff;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background: #050814;
+border-bottom: 1px solid #1f2a40;
+position: sticky;
+top: 0;
+}
+
+.logo {
+color: #00ffcc;
+}
+
+nav a {
+color: #e6f1ff;
+margin: 0 10px;
+text-decoration: none;
+transition: 0.3s;
+}
+
+nav a:hover {
+color: #00ffcc;
+}
+
+.hero {
+text-align: center;
+padding: 80px 20px;
+background: radial-gradient(circle, #0f1c33, #050814);
+}
+
+.typing {
+color: #00ffcc;
+font-size: 28px;
+}
+
+.btn {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background: #00ffcc;
+color: #000;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+}
+
+section {
+padding: 50px 20px;
+max-width: 900px;
+margin: auto;
+}
+
+h2 {
+color: #00ffcc;
+border-bottom: 1px solid #1f2a40;
+padding-bottom: 10px;
+}
+
+.skills {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+}
+
+.card {
+background: #111a2e;
+padding: 15px;
+border-radius: 8px;
+border: 1px solid #1f2a40;
+}
+
+.bar {
+background: #1f2a40;
+height: 8px;
+border-radius: 5px;
+margin-top: 5px;
+}
+
+.bar div {
+height: 8px;
+background: #00ffcc;
+border-radius: 5px;
+}
+
+.project-card {
+background: #111a2e;
+padding: 15px;
+margin: 10px 0;
+border-radius: 8px;
+border-left: 3px solid #00ffcc;
+transition: 0.3s;
+}
+
+.project-card:hover {
+transform: scale(1.02);
+}
+
+ul {
+line-height: 1.8;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background: #050814;
+border-top: 1px solid #1f2a40;
+margin-top: 30px;
+}
